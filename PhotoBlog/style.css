@@ -1,0 +1,101 @@
+/* navbar */
+.nav-link {
+    margin-right: 30px;
+}
+.navbar-brand, .nav-link {
+    color: white !important;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+}
+.nav-link:hover {
+    border-bottom: 3px solid blue;
+    margin-bottom: -5px;
+}
+
+
+/* jumbotron */
+.jumbotron {
+    background-image: url(camera.jpg);
+    background-size: cover;
+    height: 640px;
+    margin-top: -75px;
+}
+.display-4 {
+    color: white;
+    text-align: center;
+    margin-top: 150px;
+    font-size: 62px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+    font-weight: 200;
+}
+
+
+/* profile */
+.profile {
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+    background-color: white;
+    margin-top: -100px;
+    padding: 30px;
+    border-radius: 20px;
+}
+.profile img {
+    border-radius: 10px;
+    width: 80px;
+    height: 100px;
+    margin-right: 35px;
+}
+
+.profile h4 {
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 6px;
+}
+.profile p {
+    font-size: 15px;
+    color: grey;
+    font-weight: 200;
+}
+
+
+/* gallery */
+.gallery {
+    margin-top: 120px;
+    margin-bottom: 100px;
+}
+.gallery img {
+    border-radius: 5px;
+    width: 600px;
+    height: 500px;
+}
+.gallery h3 {
+    font-size: 52px;
+    font-weight: 100;
+    margin-top: 32px;
+}
+.gallery p {
+    font-size: 18px;
+    color: grey;
+    font-weight: 200;
+    margin-top: 30px;
+}
+
+
+/* tombol */
+.tombol {
+    text-transform: uppercase;
+    font-weight: 100;
+    border-radius: 50px;
+    width: 150px;
+    margin-top: 30px;
+}
+
+
+/* footer */
+.footer p {
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 200;
+    padding: 20px;
+    margin-top: 20px;
+}

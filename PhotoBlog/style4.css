@@ -1,0 +1,45 @@
+/* navbar */
+.nav-link {
+    margin-right: 30px;
+}
+.navbar-brand, .nav-link {
+    color: white !important;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+}
+.nav-link:hover {
+    border-bottom: 3px solid blue;
+    margin-bottom: -5px;
+}
+
+
+/* gallery */
+.gallery h2 {
+    margin-top: 100px;
+}
+.gallery hr {
+    width: 100px;
+    border-width: 4px;
+    border-radius: 12px;
+}
+.card-img {
+    margin-top: 100px;
+    width: 350px;
+    height: 400px;
+}
+.card-img-top {
+    margin-top: 30px;
+    width: 350px;
+    height: 400px;
+    margin-bottom: 100px;
+}
+
+
+/* footer */
+.footer p {
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 200;
+    padding: 10px;
+    margin-top: 20px;
+}
